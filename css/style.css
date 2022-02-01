@@ -1,0 +1,91 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+@font-face {
+	font-family: "FFGoodPro";
+	src: url("../fonts/FFGoodPro-Regular.woff2") format("woff2"), url("../fonts/FFGoodPro-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "FFGoodPro";
+	src: url("../fonts/FFGoodPro-News.woff2") format("woff2"), url("../fonts/FFGoodPro-News.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "FFGoodPro";
+	src: url("../fonts/FFGoodPro-Bold.woff2") format("woff2"), url("../fonts/FFGoodPro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ayuthaya";
+	src: url("../fonts/Ayuthaya.woff2") format("woff2"), url("../fonts/Ayuthaya.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+h1{
+	font-family: "FFGoodPro", sans-serif;	
+	font-size: 45px;
+	color: blue;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 20px;
+}
+
+.ayuthaya{
+	font-family: "Ayuthaya", sans-serif;
+	color: chocolate;
+	font-size: 22px;
+}
+
+p.ffgpbold{
+	font-family: "FFGoodPro", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: darkgreen;
+	text-indent: 50px;
+}
+
+
+.news{
+	font-family: "FFGoodPro", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: darkorchid;
+	word-spacing: 10px;
+	text-transform: capitalize;
+}
+
+
+.regular{
+	font-family: "FFGoodPro", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: gold;
+	text-shadow: 1px 3px 2px #000;
+}
+
+.uppercase{
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: lightseagreen;
+}
+
+.tdlt{
+	text-decoration: line-through;
+	color: maroon;
+	font-weight: 700;
+	font-size: 40px;
+	text-shadow: 2px 1px 1px #000;
+}
